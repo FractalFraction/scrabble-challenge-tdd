@@ -3,7 +3,7 @@ const Scrabble = require("../src/scrabble.js");
 const assertEqual = require("../src/testing-framework");
 
 //Initialise variables
-const inputWord, expectedScore, actualScore
+let inputWord, expectedScore, actualScore;
 
 // Setup 
 console.log('Assigning an input to a word');

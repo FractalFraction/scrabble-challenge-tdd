@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const filePath = "/Users/cmg18/Digital Futures/Challenges/scrabble-challenge-tdd/specRunner.js";
 
-const dirPath = path.join(__dirname,'src');
+const dirPath = path.join(__dirname,'specs');
 
 fs.readdir(dirPath, function (err, files) {
     //handling error
